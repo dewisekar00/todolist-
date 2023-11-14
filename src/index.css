@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #83A2FF;
+    color: white;
+  margin-top: 4rem;
+
+}
+.btn-custom {
+  background-color: #ffffff; 
+  border-color: #ffffff;
+
+  transition: background-color 0.3s ease; 
+}
+
+
+
+.btn-custom:hover {
+  background-color: #B4BDFF; 
+  border-color: #B4BDFF; 
+  box-shadow: none; }
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Pixelify Sans', sans-serif;
+  
+}
+
+
+
+
+.toDoList{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.toDoList .list-items{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list-items .items{
+  background: #B4BDFF;
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+
+  color:white ;
+  width: 800px;
+  height: 50px;
+}
+
+
+.my-custom-input {
+  width: 400px; 
+}
+
+/* CSS untuk input checkbox */
+input[type="checkbox"] {
+  /* Mengubah ukuran checkbox */
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  outline: none;
+  cursor: pointer;
+
+}
+
+
+
+
+
+ul{
+  list-style-type: none;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0; 
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+
+.icon-button span {
+  color: rgb(255, 255, 255);
+  position: relative; 
+  top: 5px; 
+  left: 5px;
+}
+
+
+li {
+  display: flex;
+  align-items: center; 
+}
+
+li span {
+  margin-left: 8px;
+}
+
+.delete-button {
+  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.delete-button:hover {
+ 
+  color: #fff;  
+}
+
+.delete-button:active {
+  opacity: 0.8;  
+}
+
+.delete-button:focus {
+    
+  outline: none;  
+}
